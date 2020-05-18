@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style>.a{fill:#fff;fill-rule:evenodd;}</style></defs><symbol id="efficiency" viewBox="0 0 150 58">
+<path d="M55.5315 38.9998L64.4635 19.2598H66.5355L75.4675 38.9998H73.0875L70.7915 33.8198H60.1235L57.7995 38.9998H55.5315ZM60.9915 31.8318H69.9235L65.4715 21.8358L60.9915 31.8318Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M121.575 1H1V57H121.575L148.61 29L121.575 1ZM122 0H0V58H122L150 29L122 0Z" fill="black"/>
+</symbol><symbol id="filter" viewBox="0 0 64 64">
+<path d="M31 44H58M48.2581 32.0571H57.996M6 44H23M6.00409 32.0571H40.7218M6 20H16.5M24 20H58" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="bevel"/>
+<circle cx="27" cy="44" r="4" stroke="black" stroke-width="2"/>
+<circle cx="20" cy="20" r="4" stroke="black" stroke-width="2"/>
+<circle cx="44" cy="32" r="4" stroke="black" stroke-width="2"/>
+</symbol><symbol id="flow" viewBox="0 0 64 64">
+<rect x="1" y="9" width="62" height="25" rx="4" stroke="black" stroke-width="2"/>
+<path d="M6 24H58" stroke="black" stroke-width="2"/>
+<path d="M29 34.5V52" stroke="black" stroke-width="2"/>
+<path d="M35 34.5V52" stroke="black" stroke-width="2"/>
+<path d="M11 29H53" stroke="black" stroke-width="2"/>
+<path d="M15 51V51.5C15 53.9853 17.0147 56 19.5 56V56C21.9853 56 24 53.9853 24 51.5V38" stroke="black" stroke-width="2"/>
+<path d="M49 51V51.5C49 53.9853 46.9853 56 44.5 56V56C42.0147 56 40 53.9853 40 51.5V38" stroke="black" stroke-width="2"/>
+</symbol><symbol id="icon_down_white" viewBox="0 0 25.018 13.509"><path class="a" d="M13,12.256,24.509.745l1,1L13,14.254.491,1.746l1-1Z" transform="translate(-0.491 -0.745)"/></symbol></svg>

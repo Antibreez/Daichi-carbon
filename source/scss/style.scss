@@ -1,0 +1,14 @@
+// vendor
+@import "vendor/normalize.scss";
+@import "vendor/swiper.scss";
+
+// general
+@import "general/variables.scss";
+@import "general/mixins.scss";
+@import "general/fonts.scss";
+
+// blocks
+@import "blocks/page-carbon.scss";
+@import "blocks/button.scss";
+@import "blocks/promo-carbon.scss";
+@import "blocks/carbon-traits.scss";

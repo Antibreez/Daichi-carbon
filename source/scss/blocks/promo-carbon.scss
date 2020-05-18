@@ -1,0 +1,163 @@
+.promo-carbon {
+  position: relative;
+
+  padding-top: 132px;
+  padding-bottom: 152px;
+  height: 100vh;
+  max-height: 1100px;
+  min-height: 940px;
+
+  text-align: center;
+  color: #ffffff;
+
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.75)),
+    url('../img/promo-carbon-bg.jpg');
+  background-position: cover;
+  background-position: bottom center;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1504px;
+    padding: 0 48px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 17px;
+
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  &__desc {
+    margin: 0;
+    margin-bottom: 37px;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  &__buy-link {
+    width: 180px;
+    margin: 0 auto 78px;
+  }
+
+  &__scroll-down {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+
+    display: block;
+    width: 25px;
+    height: 42px;
+    margin-left: -12px;
+
+    background-image: url("../img/icon_down_white.svg");
+    background-repeat: no-repeat;
+    background-position: top 14px left 0;
+    border: none;
+
+    &::before,
+    &::after {
+      @include transition(0.5s);
+
+      content: "";
+
+      position: absolute;
+      left: 0;
+
+      width: 25px;
+      height: 14px;
+
+      background-image: url("../img/icon_down_white.svg");
+      background-repeat: no-repeat;
+      opacity: 0;
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    &::after {
+      bottom: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:hover::before,
+    &:hover::after {
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 1032px) {
+  img.promo-carbon__img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 959px) {
+  .promo-carbon {
+    padding-top: 90px;
+    padding-bottom: 175px;
+    min-height: auto;
+    height: auto;
+
+    &__container {
+      padding: 0 32px;
+    }
+
+    &__buy-link {
+      margin-bottom: 96px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .promo-carbon {
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+    &__container {
+      padding: 0 16px;
+    }
+
+    &__title {
+      order: 1;
+    }
+
+    &__desc {
+      margin-bottom: 80px;
+      order: 2;
+    }
+
+    picture {
+      order: 3;
+    }
+
+    &__img {
+      margin-bottom: 192px;
+    }
+
+    &__buy-link {
+      width: 90%;
+      margin-bottom: 0;
+      order: 4;
+    }
+
+    &__scroll-down {
+      bottom: 195px;
+    }
+  }
+  img.promo-carbon__img {
+    max-width: 90%;
+  }
+}
