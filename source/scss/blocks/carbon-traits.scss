@@ -85,6 +85,10 @@
   &__unit {
     width: 83.1%;
   }
+
+  &__split-slider {
+    margin: 0 auto 168px;
+  }
 }
 
 @media (max-width: 1599px) {
@@ -163,6 +167,7 @@
 
     &__image-box {
       flex-direction: column-reverse;
+      margin-bottom: 80px;
     }
 
     &__remote {
@@ -175,6 +180,10 @@
     &__unit {
       width: 95%;
       margin-bottom: 16px;
+    }
+
+    &__split-slider {
+      margin: 0 auto 110px;
     }
   }
 }

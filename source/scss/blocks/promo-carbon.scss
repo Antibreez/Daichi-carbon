@@ -98,6 +98,26 @@
   }
 }
 
+.fixed-link {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+
+  width: 180px;
+
+  display: none;
+  z-index: 100;
+
+  &.js--show {
+    display: block;
+  }
+
+  @media (max-width: 767px) {
+    right: 30px;
+    bottom: 60px;
+  }
+}
+
 @media (max-width: 1032px) {
   img.promo-carbon__img {
     max-width: 80%;

@@ -1,0 +1,115 @@
+.split-comfort {
+  max-width: 1375px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+
+  &__title {
+    @include section-title;
+
+    margin-bottom: 102px;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: 386px;
+    padding: 280px 40px 0;
+    margin-bottom: 50px;
+
+    text-align: center;
+
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 240px auto;
+
+    &--3d-flow {
+      background-image: url('../img/3d-flow.png');
+
+      @include retina {
+        background-image: url('../img/3d-flow@2x.png');
+      }
+    }
+
+    &--ion-filter {
+      margin: 0 auto 50px;
+
+      background-image: url('../img/ion-filter.png');
+
+      @include retina {
+        background-image: url('../img/ion-filter@2x.png');
+      }
+    }
+
+    &--ionizer {
+      background-image: url('../img/ionizer.png');
+
+      @include retina {
+        background-image: url('../img/ionizer@2x.png');
+      }
+    }
+  }
+
+  &__name {
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+  }
+
+  &__desc {
+    margin: 0;
+
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 1157px) {
+  .split-comfort {
+    &__item {
+      &--ion-filter {
+        margin: 0 0 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .split-comfort {
+    padding-bottom: 0;
+
+    &__title {
+      margin-bottom: 50px;
+    }
+
+    &__item {
+      width: 288px;
+      padding-top: 200px;
+      padding-left: 0;
+      padding-right: 0;
+
+      background-size: 175px auto;
+    }
+
+    &__name {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &__desc {
+      font-size: 13px;
+      line-height: 19px;
+    }
+  }
+}
