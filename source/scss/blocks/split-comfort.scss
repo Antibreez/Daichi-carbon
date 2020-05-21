@@ -54,6 +54,56 @@
         background-image: url('../img/ionizer@2x.png');
       }
     }
+
+    &--anti-mold {
+      background-image: url('../img/anti-mold.png');
+
+      @include retina {
+        background-image: url('../img/anti-mold@2x.png');
+      }
+    }
+
+    &--cold {
+      padding: 280px 0 0;
+
+      background-image: url('../img/cold.png');
+
+      @include retina {
+        background-image: url('../img/cold@2x.png');
+      }
+    }
+
+    &--voltage {
+      margin: 0 auto 50px;
+      padding: 280px 25px 0;
+
+      background-image: url('../img/voltage.png');
+
+      @include retina {
+        background-image: url('../img/voltage@2x.png');
+      }
+    }
+
+    &--standby {
+      padding: 280px 20px 0;
+
+      background-image: url('../img/standby.png');
+
+      @include retina {
+        background-image: url('../img/standby@2x.png');
+      }
+    }
+  }
+
+  &__item--everest {
+    width: 320px;
+    padding: 264px 10px 0;
+
+    background-size: 224px auto;
+
+    &.split-comfort__item--ionizer {
+      margin: 0 auto 50px;
+    }
   }
 
   &__name {
@@ -75,10 +125,24 @@
   }
 }
 
+@media (max-width: 1279px) {
+  .split-comfort {
+    &__item--everest {
+      &.split-comfort__item--ionizer {
+        margin: 0 0 50px;
+      }
+    }
+  }
+}
+
 @media (max-width: 1157px) {
   .split-comfort {
     &__item {
       &--ion-filter {
+        margin: 0 0 50px;
+      }
+
+      &--voltage {
         margin: 0 0 50px;
       }
     }

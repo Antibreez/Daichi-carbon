@@ -10,6 +10,16 @@
   background-repeat: no-repeat;
   background-position: bottom 168px right;
 
+  &--everest {
+    background-image: url('../img/everest-side.png');
+    background-position: bottom 168px right 50px;
+  }
+
+  &--x-treme {
+    background-image: none;
+    padding-bottom: 168px;
+  }
+
   &__title {
     @include section-title;
 
@@ -25,11 +35,35 @@
     line-height: 56px;
     color: #000000;
     text-align: center;
+
+    &--x-treme {
+      max-width: 523px;
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__main-desc {
+    margin: 0 auto 68px;
+    max-width: 690px;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
   }
 
   &__list {
     margin: 0;
     padding: 0;
+
+    &--x-treme {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 882px;
+      margin: 0 auto;
+    }
   }
 
   &__item {
@@ -53,6 +87,26 @@
 
       background-image: url('../img/defrost.svg');
     }
+
+    &--eco {
+      padding: 120px 0 0;
+
+      background-image: url('../img/eco.svg');
+    }
+
+    &--intelligent-defrost {
+      max-width: 386px;
+      padding: 264px 20px 0;
+
+      background-image: url('../img/intelligent-defrost.png');
+    }
+
+    &--forced-defrost {
+      max-width: 386px;
+      padding: 264px 20px 0;
+
+      background-image: url('../img/forced-defrost.png');
+    }
   }
 
   &__name {
@@ -74,6 +128,18 @@
   }
 }
 
+@media (max-width: 861px) {
+  .split-details {
+    &__list--x-treme {
+      justify-content: center;
+    }
+
+    &__item--intelligent-defrost {
+      margin-bottom: 50px;
+    }
+  }
+}
+
 @media (max-width: 850px) {
   .split-details {
     background-size: 350px auto;
@@ -88,6 +154,10 @@
 
     background-image: none;
 
+    &--x-treme {
+      padding-bottom: 100px;
+    }
+
     &__title {
       margin-bottom: 20px;
     }
@@ -99,11 +169,35 @@
       line-height: 28px;
     }
 
+    &__main-desc {
+      max-width: none;
+      padding: 0 5%;
+
+      font-size: 15px;
+      line-height: 24px;
+    }
+
     &__item {
       width: auto;
       max-width: 386px;
       margin-left: auto;
       margin-right: auto;
+
+      &--intelligent-defrost {
+        padding-top: 200px;
+        width: 288px;
+        padding-left: 0;
+        padding-right: 0;
+        background-size: 175px auto;
+      }
+
+      &--forced-defrost {
+        padding-top: 200px;
+        width: 288px;
+        padding-left: 0;
+        padding-right: 0;
+        background-size: 175px auto;
+      }
     }
 
     &__desc {

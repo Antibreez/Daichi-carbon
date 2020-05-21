@@ -1,5 +1,6 @@
 .promo-char {
   font-weight: 300;
+  padding: 0 40px;
 }
 
 .page-title-char {
@@ -52,7 +53,7 @@
 }
 
 .promo-char__container{
-  overflow:auto;
+  overflow: auto;
 }
 
 .promo-char__row_border td{
@@ -72,8 +73,8 @@
   margin-bottom:80px;
   padding:32px 48px 70px;
   width:1568px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 25px;
 }
 

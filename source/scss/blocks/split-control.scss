@@ -4,7 +4,7 @@
   &__title {
     @include section-title;
 
-    margin-bottom: 95px;
+    margin-bottom: 60px;
   }
 
   &__promo {
@@ -21,10 +21,19 @@
     margin-right: 50px;
 
     text-align: center;
+
+    &--x-treme {
+      width: 327px;
+    }
   }
 
   &__img {
     width: 254px;
+    margin-bottom: 30px;
+
+    &--everest {
+      width: 174px;
+    }
   }
 
   &__desc {
@@ -48,6 +57,22 @@
     @include retina {
       background-image: url('../img/carbon-remote-bg@2x.jpg');
     }
+
+    &--everest {
+      background-image: url('../img/everest-remote-bg.jpg');
+
+      @include retina {
+        background-image: url('../img/everest-remote-bg@2x.jpg');
+      }
+    }
+
+    &--x-treme {
+      background-image: url('../img/x-treme-remote-bg.jpg');
+
+      @include retina {
+        background-image: url('../img/x-treme-remote-bg@2x.jpg');
+      }
+    }
   }
 
   &__modern {
@@ -59,6 +84,14 @@
     text-align: center;
 
     background: linear-gradient(138.78deg, #AC14AE 0%, #334EDC 0.01%, #C850C0 62.14%, #F3C166 100%);
+
+    &--everest {
+      background: linear-gradient(324.49deg, #6E9DFA 0%, #4080FF 0.01%, #EEB2CF 97.02%, #FFABD3 97.02%), linear-gradient(138.78deg, #AC14AE 0%, #334EDC 0.01%, #C850C0 62.14%, #F3C166 100%);
+    }
+
+    &--x-treme {
+      background: linear-gradient(138.78deg, #AC14AE 0%, #2660D2 50.7%, #00DBDE 100%);
+    }
   }
 
   &__modern-title {
@@ -91,6 +124,10 @@
   &__mobile-left {
     max-width: 515px;
     margin-left: 74px;
+
+    &--x-treme {
+      padding-top: 40px;
+    }
   }
 
   &__mobile-title {
@@ -231,7 +268,7 @@
 @media (max-width: 1150px) {
   .split-control {
     &__title {
-      margin-bottom: 65px;
+      margin-bottom: 60px;
     }
 
     &__promo {
@@ -255,6 +292,10 @@
       margin: 0 auto 70px;
 
       text-align: center;
+
+      &--x-treme {
+        padding-top: 0;
+      }
     }
   }
 }
@@ -278,6 +319,10 @@
 
     &__img {
       width: 180px;
+
+      &--everest {
+        width: 130px;
+      }
     }
 
     &__desc {

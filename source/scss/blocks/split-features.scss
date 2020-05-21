@@ -71,6 +71,22 @@
     &--no-interference {
       background-image: url('../img/no-interference.svg');
     }
+
+    &--vertical-swing {
+      background-image: url('../img/vertical-swing.svg');
+    }
+
+    &--horizontal-swing {
+      background-image: url('../img/horizontal-swing.svg');
+    }
+
+    &--silent {
+      background-image: url('../img/silent.svg');
+    }
+
+    &--local {
+      background-image: url('../img/local.svg');
+    }
   }
 
   &__name {

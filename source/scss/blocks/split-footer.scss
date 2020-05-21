@@ -7,6 +7,14 @@
 
   background: linear-gradient(123.75deg, #AC14AE 0%, #334EDC 0.01%, #C850C0 62.14%, #F3C166 100%), linear-gradient(123.75deg, #AC14AE 0%, #2660D2 50.7%, #00DBDE 100%);
 
+  &--everest {
+    background: linear-gradient(309.36deg, #6E9DFA 0%, #4080FF 0.01%, #FFB5D8 97.02%, #FFB5D8 97.02%);
+  }
+
+  &--x-treme {
+    background: linear-gradient(123.75deg, #AC14AE 0%, #2660D2 50.7%, #00DBDE 100%);
+  }
+
   &__title {
     margin: 0;
     margin-bottom: 9px;
@@ -30,6 +38,10 @@
   &__buy-link {
     width: 180px;
     margin: 0 auto 60px;
+
+    &--everest {
+      margin: 0 auto 30px;
+    }
   }
 
   &__img {

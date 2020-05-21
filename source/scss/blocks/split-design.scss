@@ -10,6 +10,14 @@
     padding-bottom: 100px;
 
     background: linear-gradient(111.93deg, #AC14AE 0%, #334EDC 0.01%, #C850C0 62.14%, #F3C166 100%);
+
+    &--everest {
+      background: linear-gradient(296.3deg, #6E9DFA 0%, #4080FF 0.01%, #EEB2CF 97.02%, #FFABD3 97.02%);
+    }
+
+    &--x-treme {
+      background: linear-gradient(111.93deg, #AC14AE 0%, #2660D2 50.7%, #00DBDE 100%);
+    }
   }
 
   &__content {
@@ -64,6 +72,14 @@
     @media (max-width: 1260px) {
       top: 360px;
     }
+
+    &--x-treme {
+      top: 390px;
+
+      @media (max-width: 1260px) {
+        top: 450px;
+      }
+    }
   }
 }
 
@@ -106,6 +122,11 @@
     &__content {
       padding-left: 5%;
       padding-right: 5%;
+    }
+
+    &__slogan--everest {
+      font-size: 36px;
+      line-height: 40px;
     }
   }
 }

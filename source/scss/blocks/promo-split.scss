@@ -1,4 +1,4 @@
-.promo-carbon {
+.promo-split {
   position: relative;
 
   padding-top: 132px;
@@ -10,11 +10,27 @@
   text-align: center;
   color: #ffffff;
 
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 0.75)),
-    url('../img/promo-carbon-bg.jpg');
-  background-position: cover;
-  background-position: bottom center;
+  &--carbon {
+    background:
+      linear-gradient(0deg, rgba(0, 0, 0, 0.75)),
+      url('../img/promo-carbon-bg.jpg');
+    background-position: cover;
+    background-position: bottom center;
+  }
+
+  &--everest {
+    background: url('../img/promo-everest-bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  &--x-treme {
+    background:
+      linear-gradient(0deg, rgba(0, 0, 0, 0.5)),
+      url('../img/promo-x-treme-bg.jpg');
+    background-size: cover;
+    background-position: bottom center;
+  }
 
   &__container {
     display: flex;
@@ -45,6 +61,10 @@
   &__buy-link {
     width: 180px;
     margin: 0 auto 78px;
+
+    &--everest {
+      margin: 0 auto 58px;
+    }
   }
 
   &__scroll-down {
@@ -118,14 +138,26 @@
   }
 }
 
+.x-treme-legend {
+  max-width: 787px;
+  padding: 168px 45px 0;
+  margin: 0 auto;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+}
+
 @media (max-width: 1032px) {
-  img.promo-carbon__img {
+  img.promo-split__img {
     max-width: 80%;
   }
 }
 
 @media (max-width: 959px) {
-  .promo-carbon {
+  .promo-split {
     padding-top: 90px;
     padding-bottom: 175px;
     min-height: auto;
@@ -142,7 +174,7 @@
 }
 
 @media (max-width: 767px) {
-  .promo-carbon {
+  .promo-split {
     padding-top: 50px;
     padding-bottom: 80px;
 
@@ -177,7 +209,16 @@
       bottom: 195px;
     }
   }
-  img.promo-carbon__img {
+
+  img.promo-split__img {
     max-width: 90%;
+  }
+
+  .x-treme-legend {
+    max-width: none;
+    padding: 90px 5% 50px;
+
+    font-size: 15px;
+    line-height: 24px;
   }
 }
