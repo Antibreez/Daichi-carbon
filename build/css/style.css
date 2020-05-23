@@ -1080,6 +1080,7 @@ button.swiper-pagination-bullet {
   padding: 0;
   height: 100%;
   min-width: 320px;
+  font-family: "Gotham Pro", "Arial", "Helvetica", "Helvetica CY", "Nimbus Sans";
 }
 
 .page-split-style *,
