@@ -3,6 +3,10 @@
   var navItems = document.querySelectorAll('.split-functions__nav-item');
   var contents = document.querySelectorAll('.split-functions__content');
 
+  if (!navList) {
+    return;
+  }
+
   var currentNavIdx = 0;
 
   var onNavClick = function (evt) {

@@ -179,5 +179,57 @@
     &--corrosion {
       background-image: url('../img/corrosion.svg');
     }
+
+    &--silent {
+      background-image: url('../img/silent.svg');
+    }
+
+    &--local {
+      background-image: url('../img/local.svg');
+    }
+
+    &--standby {
+      background-image: url('../img/standby.svg');
+    }
+
+    &--seer {
+      background-image: url('../img/seer-icon.svg');
+    }
+
+    &--dc-inverter {
+      background-image: url('../img/dc-inverter.svg');
+    }
+
+    &--soft-start {
+      background-image: url('../img/soft-start.svg');
+    }
+
+    &--standby-mode {
+      background-image: url('../img/standby-mode.svg');
+    }
+
+    &--voltage {
+      background-image: url('../img/voltage.svg');
+    }
+
+    &--reliability {
+      background-image: url('../img/reliability.svg');
+    }
+
+    &--clock {
+      background-image: url('../img/clock.svg');
+    }
+
+    &--temperature-control {
+      background-image: url('../img/temperature-control.svg');
+    }
+
+    &--forced-defrost {
+      background-image: url('../img/forced-defrost.svg');
+    }
+
+    &--low-temperature {
+      background-image: url('../img/low-temperature.svg');
+    }
   }
 }

@@ -1080,7 +1080,6 @@ button.swiper-pagination-bullet {
   padding: 0;
   height: 100%;
   min-width: 320px;
-  font-family: "Gotham Pro", "Arial", "Helvetica", "Helvetica CY", "Nimbus Sans";
 }
 
 .page-split-style *,
@@ -3361,4 +3360,56 @@ button.swiper-pagination-bullet {
 
 .split-functions__item--corrosion {
   background-image: url("../img/corrosion.svg");
+}
+
+.split-functions__item--silent {
+  background-image: url("../img/silent.svg");
+}
+
+.split-functions__item--local {
+  background-image: url("../img/local.svg");
+}
+
+.split-functions__item--standby {
+  background-image: url("../img/standby.svg");
+}
+
+.split-functions__item--seer {
+  background-image: url("../img/seer-icon.svg");
+}
+
+.split-functions__item--dc-inverter {
+  background-image: url("../img/dc-inverter.svg");
+}
+
+.split-functions__item--soft-start {
+  background-image: url("../img/soft-start.svg");
+}
+
+.split-functions__item--standby-mode {
+  background-image: url("../img/standby-mode.svg");
+}
+
+.split-functions__item--voltage {
+  background-image: url("../img/voltage.svg");
+}
+
+.split-functions__item--reliability {
+  background-image: url("../img/reliability.svg");
+}
+
+.split-functions__item--clock {
+  background-image: url("../img/clock.svg");
+}
+
+.split-functions__item--temperature-control {
+  background-image: url("../img/temperature-control.svg");
+}
+
+.split-functions__item--forced-defrost {
+  background-image: url("../img/forced-defrost.svg");
+}
+
+.split-functions__item--low-temperature {
+  background-image: url("../img/low-temperature.svg");
 }
